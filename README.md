@@ -19,9 +19,9 @@ cd ./shell-script-frontend && make install
 
 ## Scripts
 
-compress-css (remove all CSS white spaces)
+compress (remove all white spaces from any file [example={JS | CSS | HTML} files])
 
 ```
-fs-compress-css <path-to-css-file>
+fs-compress <path-to-file>
 ```
 
