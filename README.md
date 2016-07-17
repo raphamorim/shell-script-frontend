@@ -19,9 +19,26 @@ cd ./shell-script-frontend && make install
 
 ## Scripts
 
-compress (remove all white spaces from any file [example={JS | CSS | HTML} files])
+### Compress
+
+Compress (remove all white spaces from any file [example={JS | CSS | HTML} files])
 
 ```
-fs-compress <path-to-file>
+fs-compress <path-to-file> <optional-new-file>
 ```
 
+Ex: `fs-compress base.css base.min.css` or `fs-compress index.html`
+
+Replace: [gulp-compress](https://www.npmjs.com/package/gulp-compress), [grunt-contrib-compress](https://github.com/gruntjs/grunt-contrib-compress), ...
+
+### Clean
+
+Clean files and folders
+
+```
+fs-clean [<file-or-path-dir>]
+```
+
+Ex: `fs-clean css/*.css fonts/*/**.ttf javascript/app.js`
+
+Replace: [grunt-contrib-clean](https://www.npmjs.com/package/grunt-contrib-clean), [gulp-clean](https://www.npmjs.com/package/gulp-clean), ...
