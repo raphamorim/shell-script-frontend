@@ -6,6 +6,16 @@ The idea is simplify daily tasks to remove dependencies of grunt, gulp or other 
 
 Note: You can add a script or update a existent one.
 
+## Why?
+
+For every non-nodejs projects which depends on Front-end Tasks you need install
+node, npm, grunt or gulp, grunt or gulp dependencies... OH MY GODNESS!
+
+Let's be honest, your Django project needs nodejs/npm/grunt/gulp only to run
+front-end tasks???
+
+The Answer is **No**.
+
 ### How it works?
 
 You can save the script in some folder and use it or load from your PATH to use as CLI command, depends from whatever you want.
