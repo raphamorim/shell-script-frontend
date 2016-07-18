@@ -41,6 +41,18 @@ Ex: `fs-compress base.css base.min.css` or `fs-compress index.html`
 
 Replace: [gulp-compress](https://www.npmjs.com/package/gulp-compress), [grunt-contrib-compress](https://github.com/gruntjs/grunt-contrib-compress), ...
 
+### Concat
+
+Concatenize files
+
+```
+fs-concat [<path-to-file>] --output=<file-path>
+```
+
+Ex: `fs-concat js/*/**.js --output="./app.js"` or `fs-concat css/reset.css css/base.css --output="style.css" `
+
+Replace: [grunt-contrib-concat](https://github.com/gruntjs/grunt-contrib-concat), [gulp-concat](https://www.npmjs.com/package/gulp-concat), ...
+
 ### Clean
 
 Clean files and folders
@@ -52,3 +64,4 @@ fs-clean [<file-or-path-dir>]
 Ex: `fs-clean css/*.css fonts/*/**.ttf javascript/app.js`
 
 Replace: [grunt-contrib-clean](https://www.npmjs.com/package/grunt-contrib-clean), [gulp-clean](https://www.npmjs.com/package/gulp-clean), ...
+
