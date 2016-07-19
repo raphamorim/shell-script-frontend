@@ -20,4 +20,5 @@ all: install
 
 install: $(SCRIPTS)
 		for file in $^; do chmod +x $$file; done
+		sh ./front-end-scripts.sh
 
